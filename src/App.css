@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.header {
+  color: #212121;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.dashboard {
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.serach-input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #878787;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chat-card {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.chat-header {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-image {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.details {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.chat-box {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+}
+.chat {
+  background-color: #f1f3f6;
+  height: 90vh;
+}
+.left {
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat-footer {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+}
+.chat {
+  padding: 10px;
+}
+.message-left {
+  text-align: left;
+}
+.message-textfield {
+  padding: 8px 16px;
+  width: 80%;
+}
+
+.message-right {
+  text-align: right;
+}
+
+.contain-left {
+  display: inline-flex;
+  text-align: left;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.contain-right {
+  display: inline-flex;
+  text-align: right;
+  background-color: #027cd5;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.chat-footer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
 }
